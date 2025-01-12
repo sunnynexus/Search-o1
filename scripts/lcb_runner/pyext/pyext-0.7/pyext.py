@@ -370,7 +370,7 @@ def annotate(*args, **kwargs):
 
        :param args: This is a list of annotations for the function, in the order of the function's parameters. For example, ``annotate('Annotation 1', 'Annotation 2')`` will set the annotations of parameter 1 of the function to ``Annotation 1``.
 
-       :param kwargs: This is a mapping of argument names to annotations. Note that these are applied *after* the argument list, so any args set that way will be overriden by this mapping. If there is a key named `ret`, that will be the annotation for the function's return value.
+       :param kwargs: This is a mapping of argument names to annotations. Note that these are applied *after* the argument list, so any args set that way will be overridden by this mapping. If there is a key named `ret`, that will be the annotation for the function's return value.
 
        .. deprecated:: 0.5
          Use :func:`fannotate` instead.
